@@ -7,10 +7,12 @@
         <meta name="renderer" content="webkit"/>
         <meta name="force-rendering" content="webkit"/>
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
-        <link rel="icon" type="image/png" href="/assets/favicon/home.png">
-        <meta name="theme-color" content="#ffffff">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css/animate.min.css" />
-        <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100&display=swap" rel="stylesheet">
+        <link rel="icon" type="image/png" href="/assets/img/favicon/home.png"/>
+        <meta name="theme-color" content="#ffffff"/>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css/animate.min.css"/>
+        <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100&display=swap" rel="stylesheet"/>
+        <link rel="prefetch" href="https://lab.zhs.moe/en.html"/>
+        <link rel="prefetch" href="https://lab.zhs.moe/zh-hans.html"/>
         <title>Akarin Lab</title>
         <style>:root{--background-color:white;--content-color:black}@media (prefers-color-scheme:dark){:root{--background-color:#303030;--content-color:white}}body{background-color:var(--background-color);font-size:16px;font-family:'JetBrains Mono',monospace;margin:0;min-height:100vh;display:flex;flex-direction:column}main{max-width:600px;font-size:18px;flex:1;margin:3rem auto;padding:0 1rem;display:flex;flex-direction:column;justify-content:center}main h1{color:var(--content-color)}</style>
     </head>
@@ -24,14 +26,14 @@
 
         <script type="text/javascript">
             let lang = (navigator.language || navigator.browserLanguage).toLowerCase();
-            var target = "javascript:self.location='";
+            var target = "window.location.replace('";
             if (lang.indexOf("zh") != -1) {
                 target += "zh-hans";
             }
             else {
                 target += "en";
             }
-            target += ".html'";
+            target += ".html');";
             setTimeout(target, 3000);
         </script>
     </body>
