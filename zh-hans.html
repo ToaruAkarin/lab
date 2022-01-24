@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0, shrink-to-fit=no"/>
+        <meta name="renderer" content="webkit"/>
+        <meta name="force-rendering" content="webkit"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+        <link rel="icon" type="image/png" href="/assets/favicon/home.png">
+        <meta name="theme-color" content="#ffffff">
+        <title>Akarin Lab</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mdui@1.0.2/dist/css/mdui.min.css"/>
+    </head>
+
+    <body class="mdui-theme-layout-auto mdui-appbar-with-toolbar">
+        <div class="mdui-container">
+            <div class="mdui-appbar mdui-appbar-scroll-hide mdui-shadow-0 mdui-appbar-fixed">
+                <div class="mdui-toolbar">
+                    <a class="mdui-btn mdui-btn-icon">
+                        <i class="mdui-icon material-icons">menu</i>
+                    </a>
+                    <a class="mdui-typo-title mdui-center">Akarin Lab</a>
+                    <a class="mdui-btn mdui-btn-icon" mdui-menu="{target: '#language'}">
+                        <i class="mdui-icon material-icons">language</i>
+                    </a>
+                    <ul class="mdui-menu" id="language">
+                        <li class="mdui-menu-item" disabled>
+                            <a class="mdui-ripple">简体中文</a>
+                        </li>
+                        <li class="mdui-menu-item">
+                            <a class="mdui-ripple">English</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="mdui-center" style="max-width: 480px;">
+                <div class="mdui-valign" style="margin: 16px;">
+                    <img class="mdui-img-circle mdui-center mdui-shadow-6 mdui-float-left mdui-hidden-xs" src="/assets/avatar.jpg" style="max-width: 128px;"/>
+                    <div class="mdui-center">
+                        <div class="mdui-typo-headline mdui-text-left" style="margin-bottom: 8px;"><strong>阿卡林的实验室</strong></div>
+                        <div class="mdui-typo-title mdui-text-left">创造有趣又实用的应用。</div> 
+                    </div>   
+                </div>
+
+                <div class="mdui-divider mdui-clearfix" style="margin: 32px;"></div>
+
+                <div class="mdui-card mdui-center mdui-hoverable">
+                    <div class="mdui-card-media">
+                      <img src="card.jpg"/>
+                      <div class="mdui-card-media-covered mdui-card-media-covered-transparent">
+                        <div class="mdui-card-primary">
+                          <div class="mdui-card-primary-title">Title</div>
+                          <div class="mdui-card-primary-subtitle">Subtitle</div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="mdui-card-actions">
+                      <button class="mdui-btn mdui-ripple">了解更多</button>
+                      <button class="mdui-btn mdui-ripple">下载</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/mdui@1.0.2/dist/js/mdui.min.js"></script>
+    </body>
+</html>
