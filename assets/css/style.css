@@ -20,6 +20,10 @@
     margin: 32px; 
 }
 
+.title {
+    font-family: 'JetBrains Mono', monospace;
+}
+
 .main-content {
     max-width: 480px;
 }
@@ -28,7 +32,7 @@
     margin: 16px;
 }
 
-.title {
+.header-title {
     margin-bottom: 8px;
 }
 
