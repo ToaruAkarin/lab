@@ -61,8 +61,16 @@
     color: #43483F;
 }
 
+.akarin-lab-card-title-samurai {
+    color: #31111D;
+}
+
 .akarin-lab-card-btn {
     border-radius: 18px;
+}
+
+.akarin-lab-card-margin {
+    margin-top: 32px;
 }
 
 footer {
