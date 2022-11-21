@@ -1,10 +1,16 @@
 :root {
     --background-color: white;
+    --caffeine-card-color: #D9E7CB;
+    --samurai-card-color: #FFDAD9;
 }
 
 @media (prefers-color-scheme: dark) {
     :root {
         --background-color:#303030;
+        --caffeine-card-color: #D9E7CB;
+        --caffeine-card-color-bg: #4B5644;
+        --samurai-card-color: #FFDAD9;
+        --samurai-card-color-bg: #5C3F3F;
     }
 }
 
@@ -71,6 +77,16 @@
 
 .akarin-lab-card-margin {
     margin-top: 32px;
+}
+
+.akarin-lab-card-caffeine {
+    color: var(--caffeine-card-color);
+    background: var(--caffeine-card-color-bg);
+}
+
+.akarin-lab-card-samurai {
+    color: var(--samurai-card-color);
+    background: var(--samurai-card-color-bg);
 }
 
 footer {
