@@ -16,16 +16,16 @@
     font-family: Roboto, 'Noto Sans SC', sans-serif;
 }
 
+.mdui-menu {
+    border-radius: 12px;
+}
+
 .mdui-divider {
     margin: 32px; 
 }
 
 .mdui-card {
     border-radius: 16px;
-}
-
-.mdui-btn {
-    border-radius: 18px;
 }
 
 .title {
@@ -59,6 +59,10 @@
 
 .akarin-lab-card-title-caffeine {
     color: #43483F;
+}
+
+.akarin-lab-card-btn {
+    border-radius: 18px;
 }
 
 footer {
