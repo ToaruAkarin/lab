@@ -8,12 +8,12 @@
     }
 }
 
-.mdui-appbar {
-    background: var(--background-color);
+body {
+    font-family: Poppins, Roboto, 'Noto Sans SC', sans-serif;
 }
 
-.mdui-container {
-    font-family: Roboto, 'Noto Sans SC', sans-serif;
+.mdui-appbar {
+    background: var(--background-color);
 }
 
 .mdui-menu {
@@ -61,8 +61,8 @@
     color: #43483F;
 }
 
-.akarin-lab-card-title-samurai {
-    color: #31111D;
+.akarin-lab-card-title-monochrome {
+    color: #FFFFFF;
 }
 
 .akarin-lab-card-btn {
