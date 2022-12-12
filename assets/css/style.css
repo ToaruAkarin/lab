@@ -1,10 +1,10 @@
 :root {
-    --background-color: white;
+    --background-color: #FFFFFF8F;
 }
 
 @media (prefers-color-scheme: dark) {
     :root {
-        --background-color:#303030;
+        --background-color:#3030308F;
     }
 }
 
@@ -14,6 +14,8 @@ body {
 
 .mdui-appbar {
     background: var(--background-color);
+    backdrop-filter:blur(20px);
+    -webkit-backdrop-filter:blur(20px);
 }
 
 .mdui-menu {
