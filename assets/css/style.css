@@ -59,6 +59,10 @@ body {
     border-radius: 16px;
 }
 
+.akarin-lab-card-title-asterisk {
+    color: #CA891E;
+}
+
 .akarin-lab-card-title-caffeine {
     color: #43483F;
 }
